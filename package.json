@@ -1,0 +1,26 @@
+{
+  "name": "slidev-addon-components",
+  "version": "0.0.1",
+  "keywords": [
+    "slidev-addon",
+    "slidev"
+  ],
+  "engines": {
+    "slidev": ">=0.32.1"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.39.0"
+  },
+  "author": "Elio Struyf <elio@struyfconsulting.be>",
+  "funding": "https://github.com/sponsors/estruyf",
+  "bugs": "https://github.com/estruyf/slidev-addon-components/issues",
+  "dependencies": {
+    "@slidev/theme-default": "^0.21.2"
+  }
+}
